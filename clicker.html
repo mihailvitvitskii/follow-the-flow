@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FollowTheFlow</title>
+    
 </head>
 <header>
     <div class = "heading">
@@ -15,6 +16,42 @@
     </div>
 </header>
 <body>
-    
+  
+  <img src="goated img.jpg" alt="404 NOT FOUND" width = "40%" class = "goat">
+  <div class="box"></div>
+  <div class = "counter">
+    <h3>0
+    </h3>
+  </div>
+  <button onclick="btn()">нажми на меня</button>
+
+  <script>
+    let a = 0
+    function btn(){
+      a++;
+      document.getElementsByClassName ("counter")[0].innerText = a;
+    }
+  </script>
 </body>
+<style>
+    .goat{
+      padding-left: 27%;
+    }
+    .heading h1{
+        font-family:'Times New Roman', Times, serif;
+    }
+    .heading {
+        display: flex;
+    }
+    .heading h1{
+        padding-left: 7%;
+    }
+    .heading a{
+        text-decoration: none;
+        color:black;
+    }
+    .heading a:hover{
+        color:cadetblue;
+    }
+</style>
 </html>
